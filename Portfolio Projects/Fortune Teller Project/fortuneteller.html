@@ -13,10 +13,10 @@
         <link rel="stylesheet" href="fortuneteller.css" />
         <title>Fortune Teller</title>
     </head>
-<main>
+
   <body>
     <header class="jumbotron jumbotron-fluid text-center display-3"><h2>I WILL TELL YOUR FORTUNE</h2>
-        <div class="container"></div>
+        <div class="container">
             <div class="row">
                 <div class="col">
                     <img src="https://static.wikia.nocookie.net/hidden-city-mystery-of-shadows/images/5/50/Fortune_Teller_New.png" alt="fortune teller">
@@ -28,29 +28,31 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col">
-                <p><h2 class="display-4 text-center">Ask me a question</h2></p>
+                <h2 class="display-4 text-center">Ask me a question</h2>
             </div>
         </div>
-            <div class="col">
+            <div class="col-12 offset-2 col-lg-12 offset-lg-4 div-wrapper d-flex justify-content-center align-items-center">
                 <div class="input-group input-group-sm mb-3">
-                    <div class="div-to-align"></div>
+                    <div class="div-to-align">
                     <input type="text" class="input-question rounded">
+                    <button type="button" class="btn btn-success rounded">Click for your fortune</button>
                     </div>
                 </div>
             </div>
-        <button type="button" class="btn btn-success rounded">Click for your fortune</button> 
-                   
-        </div>
-    </div>
 
-    <div class="container">
+             
+    
+
+    
         <div class="row">
-            <div id="crystalBall">
-            <p id="answer">Ask me later!</p>
-            </div> 
-            <div class="trapezoid "></div>
+            <div class="col">
+                <div id="crystalBall">
+                    <p id="answer">Ask me later!</p>
+                </div> 
+                <div class="trapezoid "></div>
+            </div>
         </div>
-    </div>
+    
     
     
 
@@ -58,7 +60,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-  </body>
+  
     
 </body>
 </html>
