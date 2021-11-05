@@ -1,0 +1,48 @@
+ /* 
+    font-family: sans-serif;
+  }
+   body { 
+    background: linear-gradient(90deg, purple, green, blue);
+  }
+  #content {
+    margin: auto;
+    width: 400px;
+    text-align: center;
+    padding: 20px;
+    
+  }
+  */
+  
+  
+  #crystalBall {
+    width: 350px;
+    height: 350px;
+    background: linear-gradient(50deg, white, black);
+    filter: blur(1px);
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 100%;
+    opacity: .25;
+    z-index: 1;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+  }
+  #answer {
+    font-size: 25px;
+    
+  }
+  .trapezoid {
+    border-bottom: 50px solid goldenrod;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    margin-top: -40px;
+    margin-bottom: 10px;
+  }
+  
+  
+  
+  
