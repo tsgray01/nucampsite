@@ -1,23 +1,14 @@
- /* 
-    font-family: sans-serif;
-  }
-   body { 
-    background: linear-gradient(90deg, purple, green, blue);
-  }
-  #content {
-    margin: auto;
-    width: 400px;
-    text-align: center;
-    padding: 20px;
-    
+ /*body { 
+    background: linear-gradient(purple, green, blue);
   }
   */
+  
   
   
   #crystalBall {
     width: 350px;
     height: 350px;
-    background: linear-gradient(50deg, white, black);
+    background: linear-gradient(100deg, white, black);
     filter: blur(1px);
     margin: auto;
     margin-top: 20px;
@@ -32,7 +23,8 @@
     
   }
   #answer {
-    font-size: 25px;
+    font-size: 30px;
+    
     
   }
   .trapezoid {

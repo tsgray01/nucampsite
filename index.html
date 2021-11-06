@@ -64,14 +64,19 @@
         </div>
 
         <div class="row row-content align-items-center">
-            <div class="col-sm-4 col-md-3">
-                <h2>Featured Campsites</h2>
+            <div class="col-sm-4 order-sm-first col-md-3">
+                <h2 class="text-sm-right">Featured Campsites</h2>
             </div>
-            <div class="col">
+            <div class="col order-sm-last">
+            <div class="media">
+                <div class="media-body align-self-center">
                 <h3>React Lake Campground</h3>
                 <p class="d-none d-sm-block">Nestled in the foothills of the Chrome Mountains, this campground on the pristine React Lake is a favorite for fly fishers.</p>
             </div>
+            <img class="d-flex mr-3 img-thumbnail" src="img/react-lake-thumb.jpg" alt="React Lake" />
         </div>
+    </div>
+</div>
 
         <div class="row row-content align-items-center">
             <div class="col-sm-4 order-sm-last col-md-3">
@@ -87,7 +92,44 @@
                 </div>
             </div>
         </div>
+        <div class="row row-content">
+            <div class="col-6 mx-auto">
+                <div class="card">
+                    <h3 class="card-header bg-info text-white">Reserve a Campsite</h3>
+                    <div class="card-body">
+                      <form>
+                          <div class="row">
+                            <label class="col-6 col-form-label">Number of Campers</label>
+                            <div class="col form-group">
+                            <select id="numCampers" name="numCampers" class="form-control">
+                                <option>Select</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                            </select>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <label for="date" class="col-6 col-form-label">Date</label>
+                            <div class="col-6 form-group">
+                            <input type="date" id="date" name="date" placeholder="Date" class="form-control">
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <button type="submit" class="btn btn-primary">Search</button>
+                                </div>
+                            </div>
+                          </div>
+                      </form>  
+                    </div>
+                </div>
+            </div>
+        </div>
     </div> 
+
 
     <footer class="site-footer">
         <div class="container">
