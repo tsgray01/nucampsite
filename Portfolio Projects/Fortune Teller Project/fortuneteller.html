@@ -31,11 +31,15 @@
                 <h2 class="display-4 text-center">Ask me a question</h2>
             </div>
         </div>
+        <form id="myForm">
             <div class="col-12 offset-2 col-lg-12 offset-lg-4 div-wrapper d-flex justify-content-center align-items-center">
                 <div class="input-group input-group-sm mb-3">
                     <div class="div-to-align">
                     <input type="text" class="input-question rounded">
-                    <button type="button" class="btn btn-success rounded">Click for your fortune</button>
+                    <button type="button" class="btn btn-success btn-sm mb-1 rounded">Click for your fortune</button>
+                    
+                    <button type="reset" onclick="myFunction()" class="btn btn-primary btn-sm mb-1 rounded">Reset</button>
+            </form>
                     </div>
                 </div>
             </div>
@@ -46,16 +50,17 @@
     
         <div class="row">
             <div class="col">
-                <div id="crystalBall">
+                <div class="mb-4" id="crystalBall">
                     <p id="answer">Ask me later!</p>
-                </div> 
-                <div class="trapezoid "></div>
+                </div>    
             </div>
         </div>
     
     
     
-
+    <script> function myFunction() {
+        document.getElementById("myForm").reset();
+    }</script>
     <script src="fortuneteller.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
