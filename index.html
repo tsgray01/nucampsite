@@ -19,15 +19,19 @@
 <body>
 
     <header class="jumbotron jumbotron-fluid">
-        <div class="container">
+        <div class="container"> 
             <div class="row">
                 <div class="col-4 col-sm-3 col-md-2 align-self-center">
-                    <img src="img\logo.png" class="img-fluid" alt="nucamp logo"/>
+                    <img src="img/logo.png" class="img-fluid" alt="nucamp logo"/>
                 </div>
+                
                 <div class="col">
-                    <h1>NuCamp</h1>
+                    <h1>NuCamp</h1>  
                     <h2>a better way to camp</h2>
                 </div>
+                <div class="col-md-4 col-xl-2">
+                    <a class="btn btn-info btn-lg text-align-right"
+                 href="#reserveForm" role="button">Reserve Campsite</a></div>
             </div>
         </div>
     </header>
@@ -93,13 +97,13 @@
             </div>
         </div>
         <div class="row row-content">
-            <div class="col-6 mx-auto">
+            <div class="col-sm-6 mx-auto">
                 <div class="card">
                     <h3 class="card-header bg-info text-white">Reserve a Campsite</h3>
                     <div class="card-body">
-                      <form>
+                      <form id="reserveForm">
                           <div class="row">
-                            <label class="col-6 col-form-label">Number of Campers</label>
+                            <label class="col-sm-6 col-form-label">Number of Campers</label>
                             <div class="col form-group">
                             <select id="numCampers" name="numCampers" class="form-control">
                                 <option>Select</option>
@@ -114,11 +118,11 @@
                           </div>
                           <div class="row">
                             <label for="date" class="col-6 col-form-label">Date</label>
-                            <div class="col-6 form-group">
+                            <div class="col-sm-6 form-group">
                             <input type="date" id="date" name="date" placeholder="Date" class="form-control">
                             </div>
                             <div class="row">
-                                <div class="col">
+                                <div class="col ml-3">
                                     <button type="submit" class="btn btn-primary">Search</button>
                                 </div>
                             </div>
